@@ -1,0 +1,33 @@
+
+/* Class = "UIButton"; configuration.title = "Button1"; ObjectID = "A0V-rF-fYK"; */
+"A0V-rF-fYK.configuration.title" = "Button1";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "A0V-rF-fYK"; */
+"A0V-rF-fYK.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Aec-CU-umJ"; */
+"Aec-CU-umJ.text" = "Label";
+
+/* Class = "UIButton"; configuration.title = "Button3"; ObjectID = "FIk-PC-EOx"; */
+"FIk-PC-EOx.configuration.title" = "Button3";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "FIk-PC-EOx"; */
+"FIk-PC-EOx.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Button"; ObjectID = "TUB-US-OKk"; */
+"TUB-US-OKk.configuration.title" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "TUB-US-OKk"; */
+"TUB-US-OKk.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Button4"; ObjectID = "ssu-dE-Sof"; */
+"ssu-dE-Sof.configuration.title" = "Button4";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ssu-dE-Sof"; */
+"ssu-dE-Sof.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Button2"; ObjectID = "xMr-l3-w1w"; */
+"xMr-l3-w1w.configuration.title" = "Button2";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "xMr-l3-w1w"; */
+"xMr-l3-w1w.normalTitle" = "Button";

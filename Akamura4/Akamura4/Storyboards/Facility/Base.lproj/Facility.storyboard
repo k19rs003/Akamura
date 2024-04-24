@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="AsE-4g-Q8z">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="KFhimaji.otf">
+            <string>KFhimaji</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--施設紹介-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController restorationIdentifier="facilityNavigationController" storyboardIdentifier="facilityNavigationController" id="BYZ-38-t0r" customClass="FacilityViewController" customModule="Akamura4_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yvd-pp-KWy" userLabel="Top View">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="92"/>
+                                <color key="backgroundColor" name="ThemeColor"/>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="genji" translatesAutoresizingMaskIntoConstraints="NO" id="Ktu-c7-Uua" userLabel="Genji Image View">
+                                <rect key="frame" x="6" y="661" width="201" height="201"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Ktu-c7-Uua" secondAttribute="height" multiplier="1:1" id="gCn-18-pCo"/>
+                                </constraints>
+                            </imageView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="9SF-bh-WEe">
+                                <rect key="frame" x="0.0" y="92" width="414" height="804"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="qnb-Jh-NyM"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="9qa-Tp-Tvt"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="centerX" secondItem="Ktu-c7-Uua" secondAttribute="trailing" id="G9U-Xt-hSm"/>
+                            <constraint firstItem="yvd-pp-KWy" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="IFF-A2-LhJ"/>
+                            <constraint firstItem="9SF-bh-WEe" firstAttribute="top" secondItem="yvd-pp-KWy" secondAttribute="bottom" id="LOd-qK-XU1"/>
+                            <constraint firstItem="Ktu-c7-Uua" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="6" id="Ric-CE-lNH"/>
+                            <constraint firstItem="9SF-bh-WEe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="X2b-df-f7p"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="top" secondItem="yvd-pp-KWy" secondAttribute="bottom" id="cAS-ps-sai"/>
+                            <constraint firstItem="yvd-pp-KWy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="cIt-vy-sYV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9SF-bh-WEe" secondAttribute="trailing" id="h1r-Rh-OGc"/>
+                            <constraint firstAttribute="bottom" secondItem="9SF-bh-WEe" secondAttribute="bottom" id="i5t-V6-Orl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Ktu-c7-Uua" secondAttribute="bottom" id="lAp-b4-hvI"/>
+                            <constraint firstAttribute="trailing" secondItem="yvd-pp-KWy" secondAttribute="trailing" id="nZW-pi-KWD"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="施設紹介" id="C1m-aD-kyg"/>
+                    <connections>
+                        <outlet property="genjiImageView" destination="Ktu-c7-Uua" id="ydM-cD-nFR"/>
+                        <outlet property="tableView" destination="9SF-bh-WEe" id="yXb-fR-enL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="928.98550724637687" y="69.642857142857139"/>
+        </scene>
+        <!--Web View Controller-->
+        <scene sceneID="QiB-RQ-jre">
+            <objects>
+                <viewController storyboardIdentifier="webView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="45E-9n-jwi" customClass="WebViewController" customModule="Akamura4_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OoO-SE-qTs">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xhX-e8-mdd" userLabel="Top View">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="92"/>
+                                <color key="backgroundColor" name="ThemeColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="tqe-Bf-8Vz"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="xhX-e8-mdd" secondAttribute="trailing" id="02L-GL-YvA"/>
+                            <constraint firstItem="tqe-Bf-8Vz" firstAttribute="top" secondItem="xhX-e8-mdd" secondAttribute="bottom" id="NFN-Qh-Rna"/>
+                            <constraint firstItem="xhX-e8-mdd" firstAttribute="top" secondItem="OoO-SE-qTs" secondAttribute="top" id="fE5-2Q-jeC"/>
+                            <constraint firstItem="xhX-e8-mdd" firstAttribute="leading" secondItem="OoO-SE-qTs" secondAttribute="leading" id="uG1-Qq-ArN"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Q6t-mo-Jqp">
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="square.and.arrow.up" id="IhR-CH-dda">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="webButtonTapped:" destination="45E-9n-jwi" id="2SA-C7-P5l"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="topView" destination="xhX-e8-mdd" id="7WS-4k-8eo"/>
+                        <outlet property="webButton" destination="IhR-CH-dda" id="MBd-Y8-IBn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SRi-rE-GZ3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2734.7826086956525" y="69.642857142857139"/>
+        </scene>
+        <!--Navigation-->
+        <scene sceneID="ufe-sZ-yNf">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="AsE-4g-Q8z" customClass="UINavigation" customModule="Akamura4_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="wcx-ca-VEN">
+                        <rect key="frame" x="0.0" y="48" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="eHj-ua-1bx"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J1Z-N0-4sP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="69.642857142857139"/>
+        </scene>
+        <!--Navigation-->
+        <scene sceneID="u4N-tU-I4Q">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="FVJ-2i-V5H" customClass="UINavigation" customModule="Akamura4_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="lgL-AB-Qwc">
+                        <rect key="frame" x="0.0" y="48" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="45E-9n-jwi" kind="relationship" relationship="rootViewController" id="0kw-5m-9Od"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5rj-lJ-6S3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1824.6376811594205" y="69.642857142857139"/>
+        </scene>
+        <!--Contact View Controller-->
+        <scene sceneID="xac-xA-P7s">
+            <objects>
+                <viewController storyboardIdentifier="contactView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="L3V-dF-9d7" customClass="ContactViewController" customModule="Akamura4_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LAT-Bz-kB7">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0BC-MW-OLR" userLabel="Top View">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="92"/>
+                                <color key="backgroundColor" name="ThemeColor"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2ye-yi-yhq">
+                                <rect key="frame" x="80.5" y="448" width="253" height="34"/>
+                                <fontDescription key="fontDescription" name="KFhimaji" family="KFhimaji" pointSize="22"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="https://www.genjii.com/">
+                                    <color key="titleColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="siteButtonTapped:" destination="L3V-dF-9d7" eventType="touchUpInside" id="Usq-NV-ljP"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qhD-Hf-ZPH" userLabel="A View">
+                                <rect key="frame" x="0.0" y="425.5" width="414" height="22.5"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="※タップで電話できます" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jXQ-Cg-HFw">
+                                <rect key="frame" x="86" y="403.5" width="242" height="22"/>
+                                <fontDescription key="fontDescription" name="KFhimaji" family="KFhimaji" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uzf-dy-TVO" userLabel="B View">
+                                <rect key="frame" x="0.0" y="381" width="414" height="22.5"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DEA-iI-W1o">
+                                <rect key="frame" x="126.5" y="347" width="161" height="34"/>
+                                <fontDescription key="fontDescription" name="KFhimaji" family="KFhimaji" pointSize="22"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="0947-62-2911">
+                                    <color key="titleColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="callButtonTapped:" destination="L3V-dF-9d7" eventType="touchUpInside" id="HY7-ys-C0b"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kJP-CS-tH0" userLabel="C View">
+                                <rect key="frame" x="0.0" y="325" width="414" height="22"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="福岡県田川郡赤村大字赤6933-1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZDZ-Xz-gVa">
+                                <rect key="frame" x="45.5" y="303" width="323" height="22"/>
+                                <fontDescription key="fontDescription" name="KFhimaji" family="KFhimaji" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WbW-wL-Mnf" userLabel="D View">
+                                <rect key="frame" x="0.0" y="280.5" width="414" height="22.5"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="源じいの森" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pj0-nW-nZz">
+                                <rect key="frame" x="152" y="258.5" width="110" height="22"/>
+                                <fontDescription key="fontDescription" name="KFhimaji" family="KFhimaji" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="genji" translatesAutoresizingMaskIntoConstraints="NO" id="VG3-8J-svc" userLabel="Genji Image View">
+                                <rect key="frame" x="6" y="661" width="201" height="201"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="VG3-8J-svc" secondAttribute="height" multiplier="1:1" id="zkV-BU-Ge8"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="QoZ-6J-Eog"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="jXQ-Cg-HFw" firstAttribute="centerX" secondItem="LAT-Bz-kB7" secondAttribute="centerX" id="0yZ-we-Xri"/>
+                            <constraint firstItem="2ye-yi-yhq" firstAttribute="centerX" secondItem="LAT-Bz-kB7" secondAttribute="centerX" id="3SW-oI-IMy"/>
+                            <constraint firstItem="ZDZ-Xz-gVa" firstAttribute="top" secondItem="WbW-wL-Mnf" secondAttribute="bottom" id="5AZ-iB-9S2"/>
+                            <constraint firstItem="pj0-nW-nZz" firstAttribute="centerX" secondItem="LAT-Bz-kB7" secondAttribute="centerX" id="6J7-NR-gZ3"/>
+                            <constraint firstItem="ZDZ-Xz-gVa" firstAttribute="centerX" secondItem="LAT-Bz-kB7" secondAttribute="centerX" id="7ZD-NA-4ee"/>
+                            <constraint firstItem="qhD-Hf-ZPH" firstAttribute="height" secondItem="LAT-Bz-kB7" secondAttribute="height" multiplier="0.025" id="94C-eM-Bnb"/>
+                            <constraint firstItem="kJP-CS-tH0" firstAttribute="leading" secondItem="QoZ-6J-Eog" secondAttribute="leading" id="Chm-dP-cm1"/>
+                            <constraint firstItem="kJP-CS-tH0" firstAttribute="height" secondItem="LAT-Bz-kB7" secondAttribute="height" multiplier="0.025" id="Eea-XR-6gf"/>
+                            <constraint firstItem="QoZ-6J-Eog" firstAttribute="trailing" secondItem="uzf-dy-TVO" secondAttribute="trailing" id="IUS-cO-srn"/>
+                            <constraint firstItem="qhD-Hf-ZPH" firstAttribute="leading" secondItem="QoZ-6J-Eog" secondAttribute="leading" id="Jc8-8v-E0d"/>
+                            <constraint firstAttribute="trailing" secondItem="0BC-MW-OLR" secondAttribute="trailing" id="Qaf-Yu-lfn"/>
+                            <constraint firstItem="QoZ-6J-Eog" firstAttribute="trailing" secondItem="kJP-CS-tH0" secondAttribute="trailing" id="R8c-Ji-V5T"/>
+                            <constraint firstItem="kJP-CS-tH0" firstAttribute="top" secondItem="ZDZ-Xz-gVa" secondAttribute="bottom" id="S4l-N0-HX8"/>
+                            <constraint firstItem="WbW-wL-Mnf" firstAttribute="top" secondItem="pj0-nW-nZz" secondAttribute="bottom" id="WLE-SH-8Wa"/>
+                            <constraint firstItem="WbW-wL-Mnf" firstAttribute="leading" secondItem="QoZ-6J-Eog" secondAttribute="leading" id="Wr2-pg-97z"/>
+                            <constraint firstItem="0BC-MW-OLR" firstAttribute="top" secondItem="LAT-Bz-kB7" secondAttribute="top" id="ZSe-Yx-rY1"/>
+                            <constraint firstItem="QoZ-6J-Eog" firstAttribute="trailing" secondItem="WbW-wL-Mnf" secondAttribute="trailing" id="ajQ-fy-d40"/>
+                            <constraint firstItem="VG3-8J-svc" firstAttribute="bottom" secondItem="QoZ-6J-Eog" secondAttribute="bottom" id="eyU-PY-jt1"/>
+                            <constraint firstItem="2ye-yi-yhq" firstAttribute="top" secondItem="qhD-Hf-ZPH" secondAttribute="bottom" id="fMm-qa-sk2"/>
+                            <constraint firstItem="WbW-wL-Mnf" firstAttribute="height" secondItem="LAT-Bz-kB7" secondAttribute="height" multiplier="0.025" id="fUW-qg-Ity"/>
+                            <constraint firstItem="0BC-MW-OLR" firstAttribute="leading" secondItem="LAT-Bz-kB7" secondAttribute="leading" id="fqf-7r-fGj"/>
+                            <constraint firstItem="QoZ-6J-Eog" firstAttribute="trailing" secondItem="qhD-Hf-ZPH" secondAttribute="trailing" id="iB8-Yp-DAG"/>
+                            <constraint firstItem="uzf-dy-TVO" firstAttribute="height" secondItem="LAT-Bz-kB7" secondAttribute="height" multiplier="0.025" id="iXa-OO-aSD"/>
+                            <constraint firstItem="DEA-iI-W1o" firstAttribute="centerX" secondItem="LAT-Bz-kB7" secondAttribute="centerX" id="k8g-zF-OkB"/>
+                            <constraint firstItem="uzf-dy-TVO" firstAttribute="top" secondItem="DEA-iI-W1o" secondAttribute="bottom" id="kCg-5s-Atu"/>
+                            <constraint firstItem="QoZ-6J-Eog" firstAttribute="centerX" secondItem="VG3-8J-svc" secondAttribute="trailing" id="kji-ub-394"/>
+                            <constraint firstItem="VG3-8J-svc" firstAttribute="leading" secondItem="QoZ-6J-Eog" secondAttribute="leading" constant="6" id="m5p-4R-P0p"/>
+                            <constraint firstItem="QoZ-6J-Eog" firstAttribute="top" secondItem="0BC-MW-OLR" secondAttribute="bottom" id="mie-4i-C81"/>
+                            <constraint firstItem="jXQ-Cg-HFw" firstAttribute="top" secondItem="uzf-dy-TVO" secondAttribute="bottom" id="oKE-gY-7x6"/>
+                            <constraint firstAttribute="centerY" secondItem="2ye-yi-yhq" secondAttribute="top" id="sh5-JJ-MnC"/>
+                            <constraint firstItem="qhD-Hf-ZPH" firstAttribute="top" secondItem="jXQ-Cg-HFw" secondAttribute="bottom" id="vE5-SC-VbF"/>
+                            <constraint firstItem="uzf-dy-TVO" firstAttribute="leading" secondItem="QoZ-6J-Eog" secondAttribute="leading" id="vgQ-Ya-zeP"/>
+                            <constraint firstItem="DEA-iI-W1o" firstAttribute="top" secondItem="kJP-CS-tH0" secondAttribute="bottom" id="ye6-FS-lkG"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="L6R-ch-a4d">
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="facebookIcon" id="0aE-y5-iDI">
+                            <connections>
+                                <action selector="facebookIconTapped:" destination="L3V-dF-9d7" id="twn-xY-Ajy"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="addressLabel" destination="ZDZ-Xz-gVa" id="MWQ-jZ-fON"/>
+                        <outlet property="callButton" destination="DEA-iI-W1o" id="0Hv-qo-83Q"/>
+                        <outlet property="siteButton" destination="2ye-yi-yhq" id="YvN-Bb-TIW"/>
+                        <outlet property="titleLabel" destination="pj0-nW-nZz" id="fcJ-qD-Yht"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ibh-E2-btS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2734.7826086956525" y="745.3125"/>
+        </scene>
+        <!--Navigation-->
+        <scene sceneID="a28-DT-52k">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Fbl-Bo-PLx" customClass="UINavigation" customModule="Akamura4_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Hyl-X9-EwZ">
+                        <rect key="frame" x="0.0" y="48" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="L3V-dF-9d7" kind="relationship" relationship="rootViewController" id="i9Q-j5-CUS"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iGV-AQ-u0T" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1824.6376811594205" y="744.64285714285711"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="facebookIcon" width="33" height="33"/>
+        <image name="genji" width="840" height="840"/>
+        <image name="square.and.arrow.up" width="12" height="15"/>
+        <namedColor name="ThemeColor">
+            <color red="0.49000000953674316" green="0.0040000001899898052" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

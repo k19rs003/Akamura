@@ -1,0 +1,95 @@
+[
+    {
+        "header": "源じいの森",
+        "isShown": false,
+        "address": "福岡県田川郡赤村大字赤6933-1",
+        "phoneNumber": "0947-62-2911",
+        "mainSite": "https://www.genjii.com",
+        "facebook": "https://www.facebook.com/akamurapjm/",
+        "contents":
+        [
+            {
+                "title": "温泉施設",
+                "subTitle": "源じいの森温泉",
+                "picture": "spa.png",
+                "site": "https://www.genjii.com/spa",
+                "contact": ""
+            },
+            {
+                "title": "宿泊施設",
+                "subTitle": "ほたる館",
+                "picture": "hotarukan.png",
+                "site": "",
+                "contact": ""
+
+            },
+            {
+                "title": "",
+                "subTitle": "ロッジ",
+                "picture": "lodge.png",
+                "site": "",
+                "contact": ""
+            },
+            {
+                "title": "",
+                "subTitle": "バンガロー",
+                "picture": "bungalo.png",
+                "site": "",
+                "contact": ""
+            },
+            {
+                "title": "",
+                "subTitle": "ドームハウス",
+                "picture": "domeHouse.png",
+                "site": "",
+                "contact": ""
+            },
+            {
+                "title": "",
+                "subTitle": "ガーデンホーム",
+                "picture": "gardenHome.png",
+                "site": "https://www.genjii.com/stay",
+                "contact": "aaa"
+            }
+        ]
+    },
+    {
+        "header": "特産物センター",
+        "isShown": false,
+        "address": "",
+        "phoneNumber": "",
+        "mainSite": "",
+        "facebook": "",
+        "contents":
+        [
+            {
+                "title": "",
+                "subTitle": "",
+                "picture": "specialityCenter.png",
+                "site": "https://red-village.com",
+                "contact": ""
+            }
+            
+        ]
+    },
+    {
+        "header": "赤村役場",
+        "isShown": false,
+        "address": "福岡県田川郡赤村大字内田1188",
+        "phoneNumber": "0947-62-3000",
+        "mainSite": "http://www.akamura.net/",
+        "facebook": "https://www.facebook.com/akamurajoho/",
+        "contents":
+        [
+            {
+                "title": "",
+                "subTitle": "",
+                "picture": "villageOffice.png",
+                "site": "http://www.akamura.net",
+                "contact": "aaa"
+            }
+            
+        ]
+    }
+]
+ 

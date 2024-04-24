@@ -1,0 +1,270 @@
+[
+    {
+        "header":"MainContents",
+        "isShown": true,
+        "contents":[
+            {
+                "season":"春夏秋冬",
+                "month":"allMonth",
+                "title":"( ^)o(^ )b",
+                "image": "",
+                "showType" : "3",
+                "url":"",
+                "picture": "genji",
+                "detail": "",
+                "video": ""
+            }
+        ]
+        
+    },
+    {
+        "header":"春のイベント",
+        "isShown": false,
+        "contents":[
+            {
+                "season":"春",
+                "month":"3月",
+                "title":"桃の開花",
+                "image": "",
+                "showType" : "3",
+                "url":"",
+                "picture": "genji",
+                "detail": "",
+                "video": ""
+                
+                
+            },
+            {
+                "season":"春",
+                "month":"4月",
+                "title":"大内田岩戸神楽",
+                "image":"kagura",
+                "showType" : "1",
+                "url":"",
+                "picture": "kagura",
+                "detail": "由来は定かではありませんが明暦元年(１６６５年)に始まったといわれる神楽です。当時、大内田地区に牛馬の疫病が流行したことから神楽を踊ることを決めた。そこで、大内田地区が三戸になるまで、四月神楽(今は４月２８日の夜２０時より３時間ほど舞っています。)を舞うことを万年願として神に約束したと言います。大正初期に現在の形になったと言われています。",
+                "video": ""
+                
+            },
+            {
+                "season":"春",
+                "month":"5月",
+                "title":"神幸祭",
+                "image":"jinkousai",
+                "showType" : "1",
+                "url":"",
+                "picture": "jinkousai",
+                "detail": "約二百年前から行われているお祭りで里に降りてこられた神を迎え、村を案内して、里を見てもらう行事です。毎年５月４日・５日に行われ、犬山・こども山の二台の山車が光明八幡神社にみこしを迎えに行きます。みこしはその後、御旅所で一泊し氏子の人たちは迎えた神と一夜を過ごします。翌日、神は山車のおともで神社へと帰っていきます。神幸祭には『五穀豊穣』と『里人の多幸』の祈りがこめられています。",
+                "video": ""
+                
+            },
+            {
+                "season":"春",
+                "month":"",
+                "title":"ほたる鑑賞",
+                "image":"WatchingFireflies",
+                "showType" : "2",
+                "url":"",
+                "picture": "WatchingFireflies",
+                "detail": "赤村では５月から６月はじめにかけて至るところでほたるを鑑賞することができます。清流が綺麗な赤村ならではの光景です。",
+                "video": ""
+            }
+        ]
+    },
+    {
+        "header":"夏のイベント",
+        "isShown": false,
+        "contents":[
+            {
+                "season":"夏",
+                "month":"6月",
+                "title":"ほたる鑑賞",
+                "image":"WatchingFireflies",
+                "showType" : "1",
+                "url":"",
+                "picture": "WatchingFireflies",
+                "detail": "赤村では５月から６月はじめにかけて至るところでほたるを鑑賞することができます。清流が綺麗な赤村ならではの光景です。",
+                "video": ""
+                
+            },
+            {
+                "season":"夏",
+                "month":"",
+                "title":"DO YOU 農？",
+                "image":"Doyounou",
+                "showType" : "2",
+                "url":"",
+                "picture": "Doyounou",
+                "detail": "昭和６２年度から今日まで行っている農村体験イベントです。春のこの時期は都市の方々を招いて昔ながらの手植えによる田植えを体験してもらいます。",
+                "video": "https://www.youtube.com/watch?v=39wfO1WZ1t4&t=5s"
+            },
+            {
+                "season":"夏",
+                "month":"7月",
+                "title":"源じいの森 キャンプ場",
+                "image":"genjiinomori",
+                "showType" : "1",
+                "url":"",
+                "picture": "genjiinomori",
+                "detail": "源じいの森のキャンプ場がオープンし、毎年多くの人が訪れます。キャンプ場の隣にはグリーンシャワーガーデンがあり、山にいながら遊泳が楽しめます。さらに夜には満天の星空がお出迎えします。※写真右はグリーンシャワーガーデンの様子",
+                "video": ""
+                
+                
+            },
+            {
+                "season":"夏",
+                "month":"",
+                "title":"今川公園 キャンプ場",
+                "image":"imagawaPark",
+                "showType" : "2",
+                "url":"",
+                "picture": "imagawaPark",
+                "detail": "今川公園のキャンプ場では、毎年多くの人が訪れます。キャンプ場には泳げる場所（河川）があり、山にいながら遊泳が楽しめます。さらに夜には満天の星空がお出迎えします。",
+                "video": ""
+            },
+            {
+                "season":"夏",
+                "month":"8月",
+                "title":"ザ・夏まつり.",
+                "image":"thenatumaturi",
+                "showType" : "1",
+                "url":"",
+                "picture": "thenatumaturi",
+                "detail": "赤村である夏祭り。普通の夏祭りとは違って知り合いばかりなので和やかな中、祭りが行われます。",
+                "video": ""
+                
+            }
+        ]
+    },
+    {
+        "header":"秋のイベント",
+        "isShown": false,
+        "contents":[
+            {
+                "season":"秋",
+                "month":"9月",
+                "title":"DO YOU 農？",
+                "image":"genji",
+                "showType" : "1",
+                "url":"",
+                "picture": "genji",
+                "detail": "農村体験イベント秋の巻です。みんなで植えた、稲の収穫を行います。その他芋掘りや、加工体験などを行い、お昼には赤村でとれた食材を使った昼食会など内容は盛りだくさんです。",
+                "video": ""
+
+            },
+            {
+                "season":"秋",
+                "month":"",
+                "title":"赤村体育大会",
+                "image":"",
+                "showType" : "4",
+                "url":"",
+                "picture": "genji",
+                "detail": "",
+                "video": ""
+            },
+            {
+                
+                "season":"秋",
+                "month":"10月",
+                "title":"稲刈り",
+                "image":"",
+                "showType" : "3",
+                "url":"",
+                "picture": "genji",
+                "detail": "",
+                "video": ""
+                
+            },
+            {
+                "season":"秋",
+                "month":"11月",
+                "title":"赤村文化祭",
+                "image":"akamuraCulturalFestival",
+                "showType" : "1",
+                "url":"",
+                "picture": "akamuraCulturalFestival",
+                "detail": "村民あげての「村」の文化祭です。役場・住民センターと役場前コミュニティ広場のステージでは神楽や民謡、のど自慢そして太鼓などが催され、役場と道を挟んである健康増進センターでは村民の物産品や芸術作品の展示を行っています。また、保健センターでは福祉健康まつりが同時に開催されています。※バザーもあります。",
+                "video": ""
+            },
+            {
+                "season":"秋",
+                "month":"",
+                "title":"村民駅伝大会",
+                "image":"",
+                "showType" : "4",
+                "url":"",
+                "picture": "genji",
+                "detail": "",
+                "video": ""
+            }
+            
+        ]
+    },
+    {
+        "header":"冬のイベント",
+        "isShown": false,
+        "contents":[
+            {
+                
+                "season":"冬",
+                "month":"12月",
+                "title":"除夜の鐘",
+                "image":"",
+                "showType" : "3",
+                "url":"",
+                "picture": "genji",
+                "detail": "",
+                "video": ""
+                
+            },
+            {
+                "season":"冬",
+                "month":"1月",
+                "title":"初日の出",
+                "image":"firstSunrise",
+                "showType" : "1",
+                "url":"",
+                "picture": "firstSunrise",
+                "detail": "戸城山森林公園からの初日の出は幻想的でわざわざ泊まり込みで見にくる方もいらっしゃいます。",
+                "video": ""
+            },
+            {
+                "season":"冬",
+                "month":"",
+                "title":"赤村成人式",
+                "image":"",
+                "showType" : "4",
+                "url":"",
+                "picture": "genji",
+                "detail": "",
+                "video": ""
+            },
+            {
+                "season":"冬",
+                "month":"",
+                "title":"赤村消防団出初式",
+                "image":"",
+                "showType" : "4",
+                "url":"",
+                "picture": "genji",
+                "detail": "",
+                "video": ""
+            },
+            {
+                "season":"冬",
+                "month":"2月",
+                "title":"梅の開花",
+                "image":"",
+                "showType" : "3",
+                "url":"",
+                "picture": "genji",
+                "detail": "",
+                "video": ""
+                
+            }
+        ]
+    }
+]
+
+

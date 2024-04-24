@@ -1,0 +1,236 @@
+[
+    {
+        "header":"春のイベント",
+        "isShown": true,
+        "contents":[
+            {
+                "season":"春",
+                "month":"3",
+                "title":"桃の開花",
+                "image": "",
+                "showType" : "3",
+                "url":"",
+                "picture": "genji",
+                "detail": "",
+                "video": ""
+            },
+            {
+                "season":"春",
+                "month":"4",
+                "title":"大内田岩戸神楽",
+                "image":"kagura",
+                "showType" : "1",
+                "url":"",
+                "picture": "kagura",
+                "detail": "",
+                "video": ""
+            },
+            {
+                "season":"春",
+                "month":"5",
+                "title":"神幸祭",
+                "image":"jinkousai",
+                "showType" : "1",
+                "url":"",
+                "picture": "jinkousai",
+                "detail": "",
+                "video": ""
+            },
+            {
+                "season":"春",
+                "month":"5",
+                "title":"ほたる鑑賞",
+                "image":"WatchingFireflies",
+                "showType" : "2",
+                "url":"",
+                "picture": "WatchingFireflies",
+                "detail": "",
+                "video": ""
+            }
+        ]
+    },
+    {
+        "header":"夏のイベント",
+        "isShown": false,
+        "contents":[
+            {
+                "season":"夏",
+                "month":"6",
+                "title":"ほたる鑑賞",
+                "image":"WatchingFireflies",
+                "showType" : "1",
+                "url":"",
+                "picture": "WatchingFireflies",
+                "detail": "",
+                "video": ""
+            },
+            {
+                "season":"夏",
+                "month":"6",
+                "title":"DO YOU 農？",
+                "image":"Doyounou",
+                "showType" : "2",
+                "url":"",
+                "picture": "Doyounou",
+                "detail": "",
+                "video": ""
+            },
+            {
+                "season":"夏",
+                "month":"7",
+                "title":"源じいの森 キャンプ場",
+                "image":"genjiinomori",
+                "showType" : "1",
+                "url":"",
+                "picture": "genjiinomori",
+                "detail": "",
+                "video": ""
+            },
+            {
+                "season":"夏",
+                "month":"7",
+                "title":"今川公園 キャンプ場",
+                "image":"imagawaPark",
+                "showType" : "2",
+                "url":"",
+                "picture": "imagawaPark",
+                "detail": "",
+                "video": ""
+            },
+            {
+                "season":"夏",
+                "month":"8",
+                "title":"ザ・夏まつり.",
+                "image":"thenatumaturi",
+                "showType" : "1",
+                "url":"",
+                "picture": "thenatumaturi",
+                "detail": "",
+                "video": ""
+            }
+        ]
+    },
+    {
+        "header":"秋のイベント",
+        "isShown": false,
+        "contents":[
+            {
+                "season":"秋",
+                "month":"9",
+                "title":"DO YOU 農？",
+                "image":"Doyounou",
+                "showType" : "1",
+                "url":"",
+                "picture": "Doyounou",
+                "detail": "",
+                "video": ""
+            },
+            {
+                "season":"秋",
+                "month":"9",
+                "title":"赤村体育大会",
+                "image":"",
+                "showType" : "4",
+                "url":"",
+                "picture": "genji",
+                "detail": "",
+                "video": ""
+            },
+            {
+                
+                "season":"秋",
+                "month":"10",
+                "title":"稲刈り",
+                "image":"",
+                "showType" : "3",
+                "url":"",
+                "picture": "genji",
+                "detail": "",
+                "video": ""
+            },
+            {
+                "season":"秋",
+                "month":"11",
+                "title":"赤村文化祭",
+                "image":"akamuraCulturalFestival",
+                "showType" : "1",
+                "url":"",
+                "picture": "akamuraCulturalFestival",
+                "detail": "",
+                "video": ""
+            },
+            {
+                "season":"秋",
+                "month":"11",
+                "title":"村民駅伝大会",
+                "image":"",
+                "showType" : "4",
+                "url":"",
+                "picture": "genji",
+                "detail": "",
+                "video": ""
+            }
+        ]
+    },
+    {
+        "header":"冬のイベント",
+        "isShown": false,
+        "contents":[
+            {
+                "season":"冬",
+                "month":"12",
+                "title":"除夜の鐘",
+                "image":"",
+                "showType" : "3",
+                "url":"",
+                "picture": "genji",
+                "detail": "",
+                "video": ""
+            },
+            {
+                "season":"冬",
+                "month":"1",
+                "title":"初日の出",
+                "image":"firstSunrise",
+                "showType" : "1",
+                "url":"",
+                "picture": "firstSunrise",
+                "detail": "",
+                "video": ""
+            },
+            {
+                "season":"冬",
+                "month":"1",
+                "title":"赤村成人式",
+                "image":"",
+                "showType" : "4",
+                "url":"",
+                "picture": "genji",
+                "detail": "",
+                "video": ""
+            },
+            {
+                "season":"冬",
+                "month":"1",
+                "title":"赤村消防団出初式",
+                "image":"",
+                "showType" : "4",
+                "url":"",
+                "picture": "genji",
+                "detail": "",
+                "video": ""
+            },
+            {
+                "season":"冬",
+                "month":"2",
+                "title":"梅の開花",
+                "image":"",
+                "showType" : "3",
+                "url":"",
+                "picture": "genji",
+                "detail": "",
+                "video": ""
+            }
+        ]
+    }
+]

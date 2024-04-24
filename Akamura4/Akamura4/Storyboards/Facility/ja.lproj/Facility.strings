@@ -1,0 +1,24 @@
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "0aE-y5-iDI"; */
+"0aE-y5-iDI.title" = "Item";
+
+/* Class = "UIButton"; normalTitle = "https://www.genjii.com/"; ObjectID = "2ye-yi-yhq"; */
+"2ye-yi-yhq.normalTitle" = "https://www.genjii.com/";
+
+/* Class = "UINavigationItem"; title = "施設紹介"; ObjectID = "C1m-aD-kyg"; */
+"C1m-aD-kyg.title" = "施設紹介";
+
+/* Class = "UIButton"; normalTitle = "0947-62-2911"; ObjectID = "DEA-iI-W1o"; */
+"DEA-iI-W1o.normalTitle" = "0947-62-2911";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "IhR-CH-dda"; */
+"IhR-CH-dda.title" = "Item";
+
+/* Class = "UILabel"; text = "福岡県田川郡赤村大字赤6933-1"; ObjectID = "ZDZ-Xz-gVa"; */
+"ZDZ-Xz-gVa.text" = "福岡県田川郡赤村大字赤6933-1";
+
+/* Class = "UILabel"; text = "※タップで電話できます"; ObjectID = "jXQ-Cg-HFw"; */
+"jXQ-Cg-HFw.text" = "※タップで電話できます";
+
+/* Class = "UILabel"; text = "源じいの森"; ObjectID = "pj0-nW-nZz"; */
+"pj0-nW-nZz.text" = "源じいの森";

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="KFhimaji.otf">
+            <string>KFhimaji</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="menuCell" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="134" id="9y9-Be-ajp" customClass="MenuCell" customModule="Akamura4_Swift" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="134"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9y9-Be-ajp" id="Kii-u4-lIG">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="134"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="GNI-5J-uQy">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="134"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="観光地" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eqS-xo-oVH" userLabel="Tourist Area Label">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="67"/>
+                                <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CJ0-WB-mYO" userLabel="Place Name Label">
+                                <rect key="frame" x="0.0" y="67" width="414" height="67"/>
+                                <fontDescription key="fontDescription" name="KFhimaji" family="KFhimaji" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="CJ0-WB-mYO" firstAttribute="height" secondItem="eqS-xo-oVH" secondAttribute="height" id="h6n-Xv-WzE"/>
+                        </constraints>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="GNI-5J-uQy" firstAttribute="top" secondItem="Kii-u4-lIG" secondAttribute="top" id="GZB-Kl-ZvN"/>
+                    <constraint firstItem="GNI-5J-uQy" firstAttribute="leading" secondItem="Kii-u4-lIG" secondAttribute="leading" id="Ph3-2q-jIv"/>
+                    <constraint firstAttribute="trailing" secondItem="GNI-5J-uQy" secondAttribute="trailing" id="YkW-8f-G1m"/>
+                    <constraint firstAttribute="bottom" secondItem="GNI-5J-uQy" secondAttribute="bottom" id="ecB-FQ-HAv"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="placeNameLabel" destination="CJ0-WB-mYO" id="9yg-CF-2CZ"/>
+                <outlet property="touristAreaLabel" destination="eqS-xo-oVH" id="iaj-NR-Xv3"/>
+            </connections>
+            <point key="canvasLocation" x="834.78260869565224" y="127.90178571428571"/>
+        </tableViewCell>
+    </objects>
+</document>

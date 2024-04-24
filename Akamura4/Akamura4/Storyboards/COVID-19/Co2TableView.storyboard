@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="QGW-iy-kko">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Co2 Table View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="Co2TableViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="Co2TableViewController" customModule="Akamura4_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Mwm-go-KeT">
+                                <rect key="frame" x="0.0" y="92" width="414" height="804"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="Y6W-OH-hqX" id="dpg-Fp-XI2"/>
+                                    <outlet property="delegate" destination="Y6W-OH-hqX" id="QjW-xM-RjE"/>
+                                </connections>
+                            </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1U5-fG-L0j" userLabel="Top View">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="92"/>
+                                <color key="backgroundColor" name="ThemeColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="1U5-fG-L0j" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="4Wp-Hv-ch7"/>
+                            <constraint firstItem="1U5-fG-L0j" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="ICb-8E-zLJ"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Mwm-go-KeT" secondAttribute="trailing" id="IaO-uN-LHa"/>
+                            <constraint firstItem="Mwm-go-KeT" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="Jd6-bf-Bzx"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="top" secondItem="1U5-fG-L0j" secondAttribute="bottom" id="lds-VT-ya4"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="1U5-fG-L0j" secondAttribute="trailing" id="rhk-xD-PwG"/>
+                            <constraint firstAttribute="bottom" secondItem="Mwm-go-KeT" secondAttribute="bottom" id="vqW-1M-0sw"/>
+                            <constraint firstItem="Mwm-go-KeT" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="wOz-sQ-NHo"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="GMF-wD-EW4">
+                        <barButtonItem key="rightBarButtonItem" id="c4N-DX-S2I" userLabel="Notification Button">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="Kpr-2H-GEw">
+                                <rect key="frame" x="302" y="5" width="92" height="34.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <imageReference key="image" image="bell.fill" symbolScale="large"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="large" weight="bold"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="notificationButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="qPo-20-s0W"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="notificationButton" destination="Kpr-2H-GEw" id="AHZ-iP-KeX"/>
+                        <outlet property="tableView" destination="Mwm-go-KeT" id="FtB-oE-eHE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="228.98550724637684" y="122.54464285714285"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="EFl-GM-gu6">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="QGW-iy-kko" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="eyc-fg-ejM">
+                        <rect key="frame" x="0.0" y="48" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Y6W-OH-hqX" kind="relationship" relationship="rootViewController" id="etk-bS-oAQ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1BA-wP-Xxv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-681.15942028985512" y="122.54464285714285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bell.fill" width="12" height="14"/>
+        <namedColor name="ThemeColor">
+            <color red="0.49000000953674316" green="0.0040000001899898052" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

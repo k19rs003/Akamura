@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="PhN-Nw-YJ9">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--天気-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="weatherViewController" id="Y6W-OH-hqX" customClass="WeatherViewController" customModule="Akamura4_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IZG-4u-ERE" userLabel="TopView">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qjU-S2-lvZ">
+                                <rect key="frame" x="0.0" y="88" width="414" height="808"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="qjU-S2-lvZ" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="2KD-Eh-U8s"/>
+                            <constraint firstItem="IZG-4u-ERE" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="APP-rN-fM1"/>
+                            <constraint firstItem="qjU-S2-lvZ" firstAttribute="bottom" secondItem="5EZ-qb-Rvc" secondAttribute="bottom" id="DDs-mz-aO3"/>
+                            <constraint firstItem="IZG-4u-ERE" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="HA8-1P-zkS"/>
+                            <constraint firstItem="qjU-S2-lvZ" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="Mbe-ZZ-Jnv"/>
+                            <constraint firstItem="IZG-4u-ERE" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="RfZ-fd-wGz"/>
+                            <constraint firstItem="IZG-4u-ERE" firstAttribute="bottom" secondItem="vDu-zF-Fre" secondAttribute="bottom" id="ohY-Y8-ZI8"/>
+                            <constraint firstItem="qjU-S2-lvZ" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="sYM-xJ-G3z"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="天気" id="m3K-cK-YUS">
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="square.and.arrow.up" id="S4L-En-WEF">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="openSafari:" destination="Y6W-OH-hqX" id="2kv-nb-RUq"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="WeatherButton" destination="S4L-En-WEF" id="fi0-sV-Av2"/>
+                        <outlet property="topView" destination="IZG-4u-ERE" id="UN7-Ke-Lbh"/>
+                        <outlet property="webView" destination="qjU-S2-lvZ" id="oZF-iY-fgS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="897.10144927536237" y="79.6875"/>
+        </scene>
+        <!--Navigation-->
+        <scene sceneID="ysB-FD-cGX">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="PhN-Nw-YJ9" customClass="UINavigation" customModule="Akamura4_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="kJt-UE-0il">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Y6W-OH-hqX" kind="relationship" relationship="rootViewController" id="Hu8-XX-h36"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PHO-wh-GuI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-13.043478260869566" y="79.6875"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="square.and.arrow.up" width="12" height="15"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

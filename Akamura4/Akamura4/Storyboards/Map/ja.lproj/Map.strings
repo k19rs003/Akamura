@@ -1,0 +1,45 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "05N-XT-KX8"; */
+"05N-XT-KX8.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "ルート検索"; ObjectID = "7jk-lB-0OD"; */
+"7jk-lB-0OD.normalTitle" = "ルート検索";
+
+/* Class = "UIButton"; normalTitle = "　"; ObjectID = "BFL-1i-AzJ"; */
+"BFL-1i-AzJ.normalTitle" = "　";
+
+/* Class = "UIButton"; normalTitle = "ルート検索"; ObjectID = "Bn0-i7-mcn"; */
+"Bn0-i7-mcn.normalTitle" = "ルート検索";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Cj4-kj-lJt"; */
+"Cj4-kj-lJt.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "✗"; ObjectID = "Fn1-ab-bKz"; */
+"Fn1-ab-bKz.normalTitle" = "✗";
+
+/* Class = "UISegmentedControl"; IqV-5Y-YRS.segmentTitles[0] = "道路地図"; ObjectID = "IqV-5Y-YRS"; */
+"IqV-5Y-YRS.segmentTitles[0]" = "道路地図";
+
+/* Class = "UISegmentedControl"; IqV-5Y-YRS.segmentTitles[1] = "道路衛星地図"; ObjectID = "IqV-5Y-YRS"; */
+"IqV-5Y-YRS.segmentTitles[1]" = "道路衛星地図";
+
+/* Class = "UISegmentedControl"; IqV-5Y-YRS.segmentTitles[2] = "衛星地図"; ObjectID = "IqV-5Y-YRS"; */
+"IqV-5Y-YRS.segmentTitles[2]" = "衛星地図";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "K7X-aC-JEz"; */
+"K7X-aC-JEz.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "　"; ObjectID = "d79-pg-nVj"; */
+"d79-pg-nVj.normalTitle" = "　";
+
+/* Class = "UIButton"; normalTitle = "　"; ObjectID = "e3B-a4-43X"; */
+"e3B-a4-43X.normalTitle" = "　";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "kVT-Cx-CYW"; */
+"kVT-Cx-CYW.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "　"; ObjectID = "sJW-ta-qr0"; */
+"sJW-ta-qr0.normalTitle" = "　";
+
+/* Class = "UIButton"; normalTitle = "　"; ObjectID = "vQc-DA-3qa"; */
+"vQc-DA-3qa.normalTitle" = "　";

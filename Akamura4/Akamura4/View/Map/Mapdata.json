@@ -1,0 +1,196 @@
+[
+                {
+                    "title": "源じいの森温泉",
+                    "latitude": 33.6151,
+                    "longitude":130.8943,
+                    "category": "touristArea",
+                    "photo": "hot_springs.png",
+                    "explanation":"季節ごと表情を変える雄大な自然に囲まれて、\n静かに過ぎていく時間の流れと、旬の贅沢を心ゆくまでお楽しみください。"
+                },
+                {
+                    "title": "赤村トロッコ油須原線\n平成筑豊鉄道赤駅",
+                    "latitude": 33.61821624,
+                    "longitude":130.87160807,
+                    "category": "touristArea",
+                    "photo": "tram.png",
+                    "explanation":"今は廃線となった鉄路を利用したトロッコ列車です。赤村駅前から野原越トンネルまでを往復し当時の情緒が楽しめます。寄付金として大人300円、子供(小学生)150円を頂いております。冬季を除く原則第2日曜日(8月は第1日曜日)に行われています。お越しの際は平成筑鉄道を利用していただき赤駅で下車して頂ければ大変便利です。"
+                },
+                {
+                    "title": "赤村役場",
+                    "latitude": 33.6167,
+                    "longitude":130.8709,
+                    "category": "touristArea",
+                    "photo": "townhall.png",
+                    "explanation":"赤村を盛り上げようと頑張る職員の姿に多くの村民が信頼を置いている赤村の行政の中心地です。"
+                },
+                {
+                    "title": "赤村特産物センター",
+                    "latitude":33.608606,
+                    "longitude":130.877132,
+                    "category": "touristArea",
+                    "photo": "redvillagemarket.png",
+                    "explanation":"平成11月にオープンした特産物センターではいろんな赤村の特産物を安値で販売しています。\n tel:0947-62-2990"
+                },
+                {
+                    "title": "今川公園",
+                    "latitude": 33.5998249,
+                    "longitude":130.8797025,
+                    "category": "touristArea",
+                    "photo": "imagawapark.png",
+                    "explanation":"平成2年度完成。キャンプ、川遊び、水泳、BBQ、釣り、花見等を楽しむことができます。河川プールあり"
+                },
+                {
+                    "title": "我鹿八幡神社",
+                    "latitude": 33.5985,
+                    "longitude":130.8783,
+                    "category": "touristArea",
+                    "photo": "hachiman_shrine",
+                    "explanation":"我鹿八幡神社の由来は、清和天皇貞観15年(875年)に御許山の山頂に光り輝く神霊が降臨し、村民たちが産霊として崇めたのに始まる。寛永七年(1629年)仲山宮より分かれ、現在の神社として存続している。光明八幡神幸祭は、産霊の神に五穀豊穣を祈願するための祭。区長、宮司が中心となり、当番にあたる隣組が祭を取り仕切ることになっている。行事としては、御輿(山笠)が区内を巡回し、夜には神楽が行われる。"
+                },
+                {
+                    "title": "みつあんきょう",
+                    "latitude": 33.6287,
+                    "longitude":130.8669,
+                    "category": "touristArea",
+                    "photo": "mituankyou.png",
+                    "explanation":"平成筑豊鉄道が通る橋でほとんどがレンガで造られている。平成11年11月に文部省(現文部科学省)登録文化財となる。"
+                },
+                {
+                    "title": "戸城山森林公園",
+                    "latitude": 33.62447,
+                    "longitude":130.887568,
+                    "category": "touristArea",
+                    "photo": "toshiroyama_forest_park.png",
+                    "explanation":"戸城山頂は城跡で１３３９年に菊地肥後守武重が築城し、その後戦乱の世の常で、目まぐるしく城主が変わり、１５８７年、城主馬屋原左馬之助元有の時、豊臣秀吉に攻められて、ついに廃城となりました。現在、戸代城跡には展望台やアスレチック施設があり、遠く英彦山・周防灘が展望できます。"
+                },
+                {
+                    "title": "田川市石炭・歴史博物館",
+                    "latitude": 33.6409,
+                    "longitude":130.8139,
+                    "category": "touristArea",
+                    "photo": "tagawacitymuseum.png",
+                    "explanation":"二本煙突がそびえ立つ石炭記念公園内にあり、「石炭」をその名に冠した公立では全国唯一の博物館です。石炭や歴史資料のほか、世界記憶遺産に登録された「山本作兵衞コレクション」を所蔵・展示しています。"
+                },
+                {
+                    "title": "見取の棚田",
+                    "latitude": 33.6209,
+                    "longitude":130.8994,
+                    "category": "touristArea",
+                    "photo": "terraced_rice_fields.png",
+                    "explanation":"美しい棚田の農園。ホタルの生息地"
+                },
+                {
+                    "title": "秋葉神社神幸祭",
+                    "latitude": 33.595532,
+                    "longitude":130.882427,
+                    "category": "touristArea",
+                    "photo": "faith_festival.png",
+                    "explanation":"200年以上も続いている春を代表する祭りです。独特のきやりや音頭とともに舞う稚児の姿に里人の多幸を祈願します。5月4日、5日に開催します。"
+                },
+                {
+                    "title": "大原貴船神社大クスの木",
+                    "latitude": 33.5923,
+                    "longitude":130.8926,
+                    "category": "touristArea",
+                    "photo": "camphor_tree.png",
+                    "explanation":"赤村を代表する大きなクスの木。"
+                },
+                {
+                    "title": "岩石山",
+                    "latitude": 33.5777,
+                    "longitude":130.9090,
+                    "category": "touristArea",
+                    "photo": "rock_mountain.png",
+                    "explanation":"岩石山の頂上付近の国見岩は、獅子に似ていて、別名、獅子岩とも言われ、展望もすばらしく、タムシバやミツバツツジが登山者を励ましてくれます。山の高は海抜456.5メートルです。"
+                },
+                {
+                    "title": "源じいの森",
+                    "latitude": 33.6167,
+                    "longitude":130.8961,
+                    "category": "touristArea",
+                    "photo": "img_flash.png",
+                    "explanation":"森の中のこの建物は、宿泊施設、研修・会議室・運動やコンサートのできるほたる型の多目的ホール・食堂があります。グリーンシャワーガーデンで森の散策や木の遊具、森を縫って流れる川で自然を満喫できます。森の作り出すグリーンシャワーやほたる館の光の塔が作りだす空間は訪れる人たちをやさしくお迎えします。"
+                },
+                {
+                    "title": "石坂トンネル",
+                    "latitude": 33.616787,
+                    "longitude":130.898025,
+                    "category": "touristArea",
+                    "photo": "isizakatunnel.png",
+                    "explanation":"北九州と田川地区の産炭地を結ぶ鉄道として栄えた路線で、美しいレンガ構造の2本あるトンネルは、九州最古の鉄道トンネルとして当時の姿を良好に保っています。平成11年11月に、文部省(現文部科学省)登録文化財となる。"
+                },
+                {
+                    "title": "岩嶽稲荷大明神",
+                    "latitude": 33.6173,
+                    "longitude":130.8991,
+                    "category": "touristArea",
+                    "photo": "hachiman_shrine.png",
+                    "explanation":"三次郎キツネの伝説があり商売繁盛の稲荷として数多くの参拝者が訪れます。"
+                },
+                {
+                    "title": "光明八幡神社",
+                    "latitude": 33.592810,
+                    "longitude":130.885113,
+                    "category": "touristArea",
+                    "photo": "hachiman_shrine.png",
+                    "explanation":"福岡県田川郡赤村にある光明八幡神社では、5月上旬恒例の「神幸祭」が行われます。約200年以上も昔から続くこのお祭は、村に降りてきた神様を迎えるお祭として、地域の人たちに親しまれています。"
+                },
+                {
+                    "title": "ログハウス喫茶「百笑」",
+                    "latitude": 33.6083,
+                    "longitude":130.8767,
+                    "category": "cafeteria",
+                    "photo": "hyakusyou.png",
+                    "explanation":"源じいの森温泉内で楽しめるお食事処。田舎料理を中心にした定食が人気で、ゆったりと温泉でくつろぎながら食を楽しめます。山菜や季節の野菜をふんだんに使ったメニューが好評で、赤村らしいグルメを味わうことができます。"
+                },
+                {
+                    "title": "お食事処 あかの駅",
+                    "latitude": 33.617,
+                    "longitude":130.8956,
+                    "category": "cafeteria",
+                    "photo": "akanoeki.png",
+                    "explanation":"定食を中心として、庶民派の料理が楽しめるお店です。看板メニューの「しょうゆ焼き」は、お好み焼き風の生地にモチモチうどんを包み、コクの効いた旨みが後を引きます。やわらかな「鶏のから揚げ」や旨み出汁の「うどん」もおススメ。"
+                },
+                {
+                    "title": "鮨割烹すさ喜",
+                    "latitude": 33.61229,
+                    "longitude": 130.88377,
+                    "category": "cafeteria",
+                    "photo": "susaki.png",
+                    "explanation":"赤村の名所のひとつ、油須原駅前に店を構え、リッチな雰囲気の中で本格的な和食を味わえることで知られます。"
+                },
+                {
+                    "title": "焼き鳥 御免ね",
+                    "latitude": 33.63039,
+                    "longitude": 130.86628,
+                    "category": "cafeteria",
+                    "photo": "gomenne.png",
+                    "explanation":"村の人々が集う居酒屋。リーズナブルな値段の焼き鳥や、濃厚な味わいの焼きうどん、各種鉄板物が人気メニューです。夜のにぎやかな赤村の雰囲気の中で、お酒とともに楽しいひとときをどうぞ。"
+                },
+                {
+                    "title": "亀 立喰いうどん",
+                    "latitude": 33.61514,
+                    "longitude":130.8833,
+                    "category": "cafeteria",
+                    "photo": "kame.png",
+                    "explanation":"看板メニューのうどんとともに、ご主人こだわりの自家製手打そばが堪能できるお店です。カウンターの他テーブル席も多く、ご家族でお好み焼きも楽しめます。定番の田舎風おでんは、村びとたちのソウルフードとして親しまれています。"
+                },
+                {
+                    "title": "オリーブキッチン\n源じいの森温泉店",
+                    "latitude": 33.615,
+                    "longitude":130.8946,
+                    "category": "cafeteria",
+                    "photo": "olive_kitchen.png",
+                    "explanation":"源じいの森温泉内で営業しているレストラン。2021年8月にオープンした。赤村の特産物を使用した料理やフルーツをふんだんに使ったデザートが売りのお店です。"
+                },
+                {
+                    "title": "九州産業大学",
+                    "latitude": 33.671050,
+                    "longitude": 130.446101,
+                    "category": "school",
+                    "photo": "kyusandai",
+                    "explanation":"九州産業大学は、福岡県福岡市東区松香台にある私立大学である。1960年に設置された。「九産大」と呼ばれている。おすすめの食事処は、図書館下のイタリアンレストラン「クオーレ」。クリームソースがかかった唐揚げがおすすめ。"
+                }
+]
+
+
